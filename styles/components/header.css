@@ -2,7 +2,7 @@
 .header-photo{
     height: 550px;
 
-    background-image: url(../../images/backgraund.png);
+    background-image: url(../../images/header-backgraund.png);
     background-size: cover;
     background-repeat: no-repeat;    
     position: relative;
@@ -49,6 +49,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    background-color: rgba(184, 243, 95, 0.542);
 }
 
 .header-nav-list-item{
@@ -72,13 +73,36 @@
     transition: all 0.5s ease-out;
 }
 .header-nav-item a:hover{
-    background-color: blue;
-    color: #fff;
+    background-color: rgb(87, 87, 136);
+    color: rgb(172, 167, 167);
     border-radius: 15px;
 }
 
-#About-me:target{
-    background-color: blue;
-    color: #fff;
-    border-radius: 15px;
+.header-nav-active{ 
+     /* Вешать клас на активное меню */
+    background-color: rgb(147, 147, 211);
+    color: rgb(226, 219, 219);
+    border-radius: 15px; 
 }
+
+.header-circle-photo{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: honeydew;
+
+    position: absolute;
+    top: 470px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-circle-photo-item{
+    width: 150px;
+    height: 150px;
+}
+
