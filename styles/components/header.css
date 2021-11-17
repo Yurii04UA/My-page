@@ -1,6 +1,4 @@
-.header{
-   
-}
+
 .header-photo{
     height: 550px;
 
@@ -47,20 +45,40 @@
 
 /* Navigaion */
 .nav{
-    height: 50px;
-    border: 1px solid;
-    display: flex;
+    height: 40px;
     align-items: center;
+    display: flex;
     justify-content: space-between;
 }
 
 .header-nav-list-item{
     display: block;
+    text-align: center;
 }
+
+
 .header-nav-item {
     width: 40%;
 }
 .header-nav-item ul{
     display: flex;
     gap: 10px;
+    justify-content: center;
+}
+
+.header-nav-item a{
+    color: #000;
+    padding: 10px 10px;
+    transition: all 0.5s ease-out;
+}
+.header-nav-item a:hover{
+    background-color: blue;
+    color: #fff;
+    border-radius: 15px;
+}
+
+#About-me:target{
+    background-color: blue;
+    color: #fff;
+    border-radius: 15px;
 }
