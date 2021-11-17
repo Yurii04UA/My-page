@@ -1,0 +1,108 @@
+
+.header-photo{
+    height: 550px;
+
+    background-image: url(../../images/header-backgraund.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: relative;
+
+    border: 1px solid;
+}
+
+.header-title-name{
+    color: rgba(0, 0, 0, 0.695);
+    font-size: 28px;
+}
+.header-text-name{
+    color: rgba(0, 0, 0, 0.695);
+    text-align: center;
+}
+
+.header-name{
+    display: inline-block;
+    position: absolute;
+    top: 130px;
+    right: 220px;
+    z-index: 1;
+}
+
+.header-email{
+    display: inline-block;
+    position: absolute;
+    top: 395px;
+    right: 100px;
+}
+
+.header-email-text{
+    color: #fff;
+}
+
+.header-email-item{
+    color: rgb(91 149 233);
+    text-align: center;
+}
+
+/* Navigaion */
+.nav{
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(184, 243, 95, 0.542);
+}
+
+.header-nav-list-item{
+    display: block;
+    text-align: center;
+}
+
+
+.header-nav-item {
+    width: 40%;
+}
+.header-nav-item ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.header-nav-item a{
+    color: #000;
+    padding: 10px 10px;
+    transition: all 0.5s ease-out;
+}
+.header-nav-item a:hover{
+    background-color: rgb(87, 87, 136);
+    color: rgb(172, 167, 167);
+    border-radius: 15px;
+}
+
+.header-nav-active{ 
+     /* Вешать клас на активное меню */
+    background-color: rgb(147, 147, 211);
+    color: rgb(226, 219, 219);
+    border-radius: 15px; 
+}
+
+.header-circle-photo{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: honeydew;
+
+    position: absolute;
+    top: 470px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-circle-photo-item{
+    width: 150px;
+    height: 150px;
+}
+
