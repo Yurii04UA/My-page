@@ -1,0 +1,46 @@
+.header{
+   
+}
+.header-photo{
+    height: 550px;
+
+    background-image: url(../../images/backgraund.png);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: relative;
+
+    border: 1px solid;
+}
+
+.header-title-name{
+    color: rgba(0, 0, 0, 0.695);
+    font-size: 28px;
+}
+.header-text-name{
+    color: rgba(0, 0, 0, 0.695);
+    text-align: center;
+}
+
+.header-name{
+    display: inline-block;
+    position: absolute;
+    top: 130px;
+    right: 220px;
+    z-index: 1;
+}
+
+.header-email{
+    display: inline-block;
+    position: absolute;
+    top: 395px;
+    right: 100px;
+}
+
+.header-email-text{
+    color: #fff;
+}
+
+.header-email-item{
+    color: rgb(91 149 233);
+    text-align: center;
+}
