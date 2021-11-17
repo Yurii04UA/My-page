@@ -44,3 +44,23 @@
     color: rgb(91 149 233);
     text-align: center;
 }
+
+/* Navigaion */
+.nav{
+    height: 50px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav-list-item{
+    display: block;
+}
+.header-nav-item {
+    width: 40%;
+}
+.header-nav-item ul{
+    display: flex;
+    gap: 10px;
+}
