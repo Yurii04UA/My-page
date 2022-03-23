@@ -1,8 +1,10 @@
 .hero-section{
    height: 500px;
-   background-color: burlywood;
+   background-color: rgba(128, 128, 128, 0.233);
    position: relative;
    z-index: 2;
+
+   
 }
 
 .section__content{
@@ -17,4 +19,16 @@
 
 .hiden{
    display: none;
+}
+.about_me{
+   padding-top: 55px;
+}
+.about_me_left{
+   width: 50%;
+   border-right: 3px dotted grey ;
+   height: 90%;
+}
+.about_me_right{
+   width: 50%;
+   height: 90%;
 }
