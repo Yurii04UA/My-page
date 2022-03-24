@@ -22,6 +22,7 @@
 }
 .about_me{
    padding-top: 55px;
+   position: relative;
 }
 .about_me_left{
    width: 50%;
@@ -31,4 +32,12 @@
 .about_me_right{
    width: 50%;
    height: 90%;
+   text-align: center;
+}
+
+.about_me_photo{
+   height: 95%;
+   position: absolute;
+   top: 3%;
+   right: 22%;
 }
